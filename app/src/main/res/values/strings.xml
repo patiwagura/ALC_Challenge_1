@@ -12,5 +12,5 @@
     <string name="str_phoneNo_Val">+254 726 567 039</string>
     <string name="str_slackUsername">Slack UserName : </string>
     <string name="str_slackUsername_Val">patiwagura</string>pa
-    <string name="str_imgContentDesc">Displays a profile picture image</string>
+    <string name="str_imgContentDesc">Displays a profile passport image</string>
 </resources>
