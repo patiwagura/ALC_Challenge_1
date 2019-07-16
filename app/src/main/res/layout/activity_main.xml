@@ -8,15 +8,20 @@
     tools:context=".MainActivity">
 
     <TextView
+        style="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to ALC 4.0"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="Welcome to ALC 4.0" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        style="@android:style/TextAppearance.Large"
         android:layout_gravity="center_horizontal"
         android:id="@+id/btnAboutAlc"
         android:text="@string/str_About_Alc"/>
@@ -25,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        style="@android:style/TextAppearance.Large"
         android:layout_gravity="center_horizontal"
         android:id="@+id/btnMyProfile"
         android:text="@string/str_myProfile"/>

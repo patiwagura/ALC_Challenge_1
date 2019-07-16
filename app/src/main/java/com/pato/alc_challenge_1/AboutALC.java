@@ -4,6 +4,7 @@ import android.net.http.SslError;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
@@ -21,6 +22,9 @@ public class AboutALC extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_alc);
 
+        //create a back_button on the title bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         webView =(WebView)findViewById(R.id.webView_aboutAlc);
         //webView.getSettings().setJavaScriptEnabled(true); //enable javascript
 
@@ -34,6 +38,16 @@ public class AboutALC extends AppCompatActivity {
 
         Log.i("ABOUT_ALC", "About ALC oncreate method");
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()){
+            case android.R.id.home:
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     private class MyWebViewClient extends WebViewClient{

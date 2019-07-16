@@ -13,12 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:padding="0dp"
         android:layout_margin="0dp"
         android:contentDescription="@string/str_imgContentDesc"
+        android:padding="0dp"
         android:src="@drawable/pato" />
 
-    <TextView
+<TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_track"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,6 +29,7 @@
         android:text="@string/str_track"/>
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_trackVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,6 +40,7 @@
         android:text="@string/str_track_val" />
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_Country"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,6 +50,7 @@
         android:text="@string/str_Country"/>
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_CountryVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,6 +61,7 @@
         android:text="@string/Kenya"/>
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,6 +70,7 @@
         android:text="@string/str_Email"/>
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_emailVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,6 +81,7 @@
         android:text="@string/str_Email_val"/>
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_phoneNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -83,6 +90,7 @@
         android:text="@string/str_PhoneNo" />
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_phoneNoVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -93,6 +101,7 @@
         android:text="@string/str_phoneNo_Val"/>
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_slackUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,6 +110,7 @@
         android:text="@string/str_slackUsername" />
 
     <TextView
+        style="@android:style/TextAppearance.Medium"
         android:id="@+id/txtView_slackUsernameVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
