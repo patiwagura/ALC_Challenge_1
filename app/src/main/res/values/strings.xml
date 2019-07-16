@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ALC_CHALLENGE_1</string>
+    <string name="str_About_Alc">About ALC</string>
+    <string name="str_myProfile">My Profile</string>
+    <string name="str_track">Track :  </string>
+    <string name="str_track_val">Android</string>
+    <string name="str_Country">Country :  </string>
+    <string name="Kenya">Kenya</string>
+    <string name="str_Email">Email : </string>
+    <string name="str_Email_val">patiwagura@gmail.com</string>
+    <string name="str_PhoneNo">Phone Number : </string>
+    <string name="str_phoneNo_Val">+254 726 567 039</string>
+    <string name="str_slackUsername">Slack UserName : </string>
+    <string name="str_slackUsername_Val">patiwagura</string>pa
+    <string name="str_imgContentDesc">Displays a profile picture image</string>
+</resources>
